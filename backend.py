@@ -43,7 +43,7 @@ def get_route(start, end):
     if start == end:
         return 0, 0, None  # If start and end are the same, distance and duration are 0
 
-    API_KEY = "AIzaSyChR3PEV_4WI_GC930ZeWPPFJYLSoOjJpQ"  # Replace with your actual API key
+    API_KEY = "............"  # Replace with your actual API key
     url = "https://routes.googleapis.com/directions/v2:computeRoutes"
     headers = {
         "Content-Type": "application/json",
